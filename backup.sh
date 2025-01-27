@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Enter the name of a directory to back up:"
+echo "Enter name here of a directory to back up:"
 read dir
 if [-d "$dir" ];then
 	tar -czvf"${dir}_backup.tar.gz" "$dir"
